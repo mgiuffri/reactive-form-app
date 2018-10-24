@@ -121,7 +121,7 @@
           }
         }
       }
-    }
+    },
   },
   "defaultProject": "reactive-form-app"
 }

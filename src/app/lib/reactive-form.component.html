@@ -1,0 +1,5 @@
+<form class="reactive-form" [formGroup]="formGroup" (submit)="onSubmit($event)">
+  <ng-container *ngFor="let question of questions;" appQuestion [question]="question" [formGroup]="formGroup">
+  </ng-container>
+  <button [disabled]="formGroup.invalid" type='submit'>Submit</button>
+</form>
